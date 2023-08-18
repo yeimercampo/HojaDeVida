@@ -1,0 +1,381 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  
+}
+body {
+
+  font-size: 11px;
+  line-height: 22px;
+  color: #000000;
+  background: -webkit-linear-gradient(#52E5E7, #360940);
+  font-weight: bold;
+}
+.hoja {
+  width: 880px;
+    height:  1500px;
+    padding: 40px;
+    margin: 50px auto;
+    background: #fff;
+    border: 4px solid #0bb5f4;
+  } 
+  .encabezado { 
+    width: 100%;
+  height: 500px;
+  background: #fff;
+  display: flex;
+  border-width: 2px;
+  /*border-style: solid;*/
+  border-color: rgb(255, 0, 0);
+  border-image: initial;
+  margin-left: 20px;
+  }
+  .izq {
+    width: 35%;
+    height: 450px;
+    background: #fff;
+  }
+.foto_perfil {
+  width: 100%;
+    height: 260px;
+}
+  .hoja .izq .foto_perfil img {
+    width: 75%;
+    height: 75%;
+    border-radius: 180%;
+    border: 1px;
+    margin-left: 0px;
+    margin-top: 10px;
+    box-shadow: 0px 20px 30px #2fddc7;
+    position: relative;
+  }
+  .hoja .izq .foto_perfil img::after{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 2px;
+    left: -29px;
+    border-radius: 50%;
+    border: 3px solid #0bb5f4;
+  }
+.info {
+  top: 1px;
+  padding: 0px;
+}
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+.bold::before{
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 120px;
+  top: 11px;
+  left: -25px;
+  background: #0bb5f4;
+}
+.bold::after{
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 2px;
+  left: -29px;
+  border-radius: 50%;
+  border: 3px solid #0bb5f4;
+}
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.hoja .hoja_item {
+ /* padding: 25px ;*/
+  border-bottom: 3px solid #0bb5f4;
+  
+}
+.hoja  .hoja_item:last-child {
+  border-bottom: 1px;
+}
+.hoja .encabezado .izq ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.hoja .encabezado .izq  ul li:last-child {
+  margin-bottom: 0;
+}
+.hoja .encabezado .izq ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #3496c7;
+  color: #fcfcfc;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+.hoja .encabezado .izq  ul li .data {
+  color: #060c0e;
+}
+.hoja .encabezado .icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Estilos para la sección derecha */
+.hoja .encabezado .der {
+  flex: 1;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff; 
+
+
+}
+.perfil{
+  width: 100%;
+  height: 260px;
+  margin-top: 60px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  border-left:3px solido #0bb5f4 ;
+}
+.nombre{ 
+  font-weight: 90%;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: auto;
+  padding: 50px;
+  background: -webkit-linear-gradient(rgb(196, 236, 231), rgb(164, 165, 235));
+  box-shadow: 0 20px 30px #360940;
+}
+.nombre .bolda{
+  color: #0bb5f4;
+  background: -webkit-linear-gradient(blue, red);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.nombre .regula{
+  color: #060c0e;
+}
+.hoja .title {
+  margin-bottom: 20px;
+  top: 10%;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #0bb5f4;
+}
+.title .p {
+  color: #080808;
+}
+.cuerpo2{ 
+
+  height: 900px;
+  background: #fff;
+  display: flex;
+  border-width: 2px;
+  /*border-style: solid;*/
+  border-color: rgb(255, 0, 0);
+  border-image: initial;
+  margin-left: 20px;
+}
+.izq2 {
+  width: 35%;
+  height: 920px;
+  background: #fff;
+  top: 5px;
+ /* padding: 25px;*/
+}
+
+.hoja .cuerpo2 .izq2 .bold {
+  color: #0bb5f4;
+}
+.hoja .cuerpo2 .izq2 ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+
+.hoja .cuerpo2 .izq2  ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #3496c7;
+  color: #fcfcfc;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+.hoja .icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hoja .cuerpo2 .izq2  ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #3496c7;
+  color: #fcfcfc;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+.resume_social{
+  top: 1px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.idiomas {
+  top: 1px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+
+}
+.habilidades{
+  top: 1px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.hoja .cuerpo2 .izq2 ul li .data {
+  color: #060c0e;
+}
+.skills:not(:last-child){
+  margin-bottom: 30px;
+}
+.detalles{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:  10px;
+}
+.menu{
+  position: relative;
+  border: 3px solid #55d1d3;
+  border-radius: 20px;
+}
+.menu div{
+  position: relative;
+  width: 0px;
+  height: 8px;
+  border-radius: 10px;
+  background-color: #55d1d3;
+}
+/*animaciones*/
+#create-menu{
+  animation: create-menu 2s forwards;
+}
+@keyframes create-menu{
+  100%{
+    width: 80%;
+  }
+}
+#trabajo-menu{
+  animation: trabajo-menu 2s forwards;
+}
+@keyframes trabajo-menu{
+  100%{
+    width: 70%;
+  }
+}
+#c-menu{
+  animation: c-menu 2s forwards;
+}
+@keyframes c-menu{
+  100%{
+    width: 90%;
+  }
+}
+#sql-menu{
+  animation: sql-menu 2s forwards;
+}
+@keyframes sql-menu{
+  100%{
+    width: 60%;
+  }
+}
+#dise-menu{
+  animation: dise-menu 2s forwards;
+}
+@keyframes dise-menu{
+  100%{
+    width: 88%;
+  }
+}
+
+.hoja .cuerpo2 .dere {
+  flex: 1;
+  width: 100%;
+  height: 920px;
+  background-color: #fff;
+} 
+.hoja .cuerpo2 .dere {
+  width: 520px;
+  background: #fff;
+  padding-left: 20px;
+  
+}
+
+.hoja .cuerpo2 .dere .bold {
+  color: #0bb5f4;
+}
+.hoja .cuerpo2 .dere .semi-bold{
+  color: #000000;
+}
+
+
+
+.hoja .cuerpo2 .dere ul li {
+  position: relative;
+}
+.hoja .cuerpo2 .dere ul li .demas{
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #000000 ;
+}
+.hoja .cuerpo2 .dere ul li .date {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: darkblue ;
+}
+
+.hoja .cuerpo2 .dere ul li .info {
+  margin-bottom: 20px;
+}
+
+.hoja .cuerpo2 .dere ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.resume_work {
+  top: 1px;
+  padding: 25px;
+  padding-bottom: 20px;
+}
+.resume_education{
+  top: 1px;
+  padding: 25px;
+  padding-bottom: 20px;
+}
+
